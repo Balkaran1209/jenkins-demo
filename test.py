@@ -2,7 +2,7 @@ from utils import add
 
 def tests():
     res = add(1,2)
-    expected = 3
+    expected = 4
     assert res == expected 
     print("add(1, 2) = ", res, "\nPass")
 
