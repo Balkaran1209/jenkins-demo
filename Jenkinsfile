@@ -8,14 +8,14 @@ agent any
         }
         stage('Executing Main') {
             steps {
-		sh "chmod u+x main.py"
-                sh "python3 main.py"
+		bat "chmod u+x main.py"
+                bat "python3 main.py"
             }
         }
      stage('Run and Check Tests') {
             steps {
-		sh "chmod u+x test.py"
-                sh "python3 test.py"
+		bat "chmod u+x test.py"
+                bat "python3 test.py"
             }
         }
     } 
